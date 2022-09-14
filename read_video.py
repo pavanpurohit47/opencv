@@ -1,6 +1,6 @@
 import cv2
 capture = cv2.VideoCapture("videos/Cat.mp4")
-while True:
+while True:  
     isTrue, Frame = capture.read()
     cv2.imshow('video',Frame)
 
