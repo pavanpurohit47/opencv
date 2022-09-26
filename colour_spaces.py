@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 
 img = cv.imread("images/cat.jpg")
-cv.imshow("pavan",img)
+cv.imshow("pavan",img)  
 
 # plt.imshow(img)
 # plt.show()
