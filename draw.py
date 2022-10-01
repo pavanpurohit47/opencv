@@ -5,7 +5,7 @@ import numpy as np
 
 blank = np.zeros((500,500,3), dtype='uint8')#unit8 is datatype of images
 cv.imshow('Blank', blank)
-
+     
 # 1. Paint the image a certain colour
 blank[200:300, 300:400] = 0,0,255
 cv.imshow('Green', blank)
