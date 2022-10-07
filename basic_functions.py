@@ -7,7 +7,7 @@ img = cv.imread("images/cat.jpg")
 cv.imshow("pavan",img)
 
 # Converting to grayscale
-gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)   
 cv.imshow('Gray', gray)
 
 # Blur
